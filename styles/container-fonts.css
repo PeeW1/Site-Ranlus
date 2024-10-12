@@ -1,0 +1,116 @@
+.container-fonts {
+    width: 100vw;
+    background-color: var(--branco-imagem);
+}
+
+.fonts {
+    margin: 30px 15px;
+}
+
+.typograph {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px dotted black;
+}
+
+.typograph-ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+    gap: 10px;
+}
+
+.font-image {
+    border-bottom: 2px dotted black;
+}
+
+.font-image img {
+    width: 90vw;
+    margin: 30px 0px;
+}
+
+.font-item {
+    width: 100%;
+    margin-top: 10px;
+    border-bottom: 2px dotted black;
+}
+
+.font-item img {
+    width: 90vw;
+    margin: 30px 0px;
+}
+
+.font-item:nth-of-type(5) {
+    display: flex;
+    flex-direction: column;
+}
+
+.font-item:nth-of-type(5) img {
+    width: 70vw;
+    margin-left: 10%;
+    margin-bottom: 100px;
+}
+
+.font-item:nth-of-type(5) p{
+    margin-bottom: 30px;
+}
+
+.container-color-palette {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.container-color-palette h1{
+    margin-top: 50px;
+    font-weight: 200;
+    font-size: 16px;
+    width: 50%;
+}
+
+.container-palette {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.container-palette-item {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    color: white;
+    background-color: black;
+    width: 50%;
+    height: 200px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.container-palette-rgb p {
+    font-size: 16px;
+    margin: 10px;
+}
+
+.container-palette-font p {
+    font-size: 50px;
+    margin: 10px;
+}
+
+.container-palette-item-red {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 70px;
+    color: white;
+    background-color: #FF535B;
+    width: 50%;
+    height: 200px;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 40px;
+    z-index: 0;
+}

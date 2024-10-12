@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(../styles/headers.css);
+@import url(../styles/firstContent.css);
+@import url(../styles/container-photos.css);
+@import url(../styles/container-fonts.css);
+@import url(../styles/animation.css);
+@import url(../styles/lastContent.css);
+@import url(../styles/footer.css);
+@import url(../styles/syles-tablet/mediaTablet.css);
+@import url(../styles/syles-tablet/fontsTablet.css);
+@import url(../styles/syles-tablet/scoreTablet.css);
+@import url(../styles/styles-desktop/photosDesktop.css);
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;A8GOBHIJKLNUY 
+}
+
+:root {
+    --fonte-kanit: "Kanit", sans-serif;
+    --cinza-primario: #E9E9E9;
+    --cinza-secundario: #d3d3d3;
+    --branco-imagem: #f9f9f9f9; 
+}
+
+body {
+    font-family: var(--fonte-kanit);
+    background-color: var(--cinza-primario); 
+}

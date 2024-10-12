@@ -1,0 +1,128 @@
+.last-content {
+    margin-top: -30px;
+    background-color: var(--branco-imagem);
+    padding: 15px;
+    width: 100%;
+}
+
+.container-technologies-h1 {
+    width: 100%;
+    border-top: 2px dotted black;
+}
+
+.container-technologies-h1 h1 {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 30px 0px;
+}
+
+.container-technologies {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.technologies-itens {
+    background-color: transparent;
+    border: 1px solid var(--cinza-secundario);
+    border-radius: 50px;
+    font-size: 16px;
+    font-family: var(--fonte-kanit);
+    padding: 5px;
+}
+
+
+.container-last-content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin: 80px 0px 30px 0px;
+}
+
+.container-last-content-text h1 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container-last-content-text p {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.container-inside-look p {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.contaner-score-text {
+    margin: 50px 0px;
+}
+
+.contaner-score-text h1{
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.container-votes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-votes h1 {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.container-votes-person {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-top: 2px dotted black;
+}
+
+.container-votes-person img {
+    width: 45px;
+    border-radius: 50px;
+    margin-left: 30px;
+}
+
+.person-votes-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.votes-person-city {
+    display: flex;
+    gap: 5px;
+}
+
+.person-vote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cinza-primario);
+    width: 60px;
+    height: 90px;
+    margin-left: 50px;
+}
+
+
+.last-content-img {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.last-content-img img {
+    width: 50%;
+    height: auto;
+}
+

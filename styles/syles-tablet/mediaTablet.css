@@ -1,0 +1,65 @@
+
+
+@media(min-width: 768px) {
+    .first-content-date {
+        padding: 15px;
+    }
+
+    .header-search-input {
+        padding: 20px;
+    }
+
+    .header-search-input::placeholder {
+        font-size: 16px;
+    }
+
+    .container-header-menu {
+        padding: 15px;
+    }
+
+    .container-header-user {
+        padding: 15px;
+    }
+
+    .container-header-user img {
+        width: 30px;
+    }
+    
+    .container-calender {
+      flex-direction: column;
+      gap: 0px;
+      height: 70px;
+      border-radius: 10px;
+      width: 50px;
+    }
+
+    .calender-date {
+        border-right: none;
+        border-bottom: 1px solid black;         /*   HEADER  / FIRST-CONTENT */
+        justify-content: center;
+        height: 50%;
+    }
+
+    .calender-date p {
+        font-size: 11px;
+    }
+
+    .calender-day {
+        justify-content: center;
+        height: 100%;
+    }
+    
+    .first-content-text h1 {
+        font-size: 68px;
+    }
+
+    .first-content-text h2 {
+        font-size: 22px;             
+    }
+
+    .first-content-user p{
+        font-size: 18px;
+    }
+
+
+}
