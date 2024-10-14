@@ -17,4 +17,15 @@
     transition: 1s;
 }
 
+@media(min-width: 1024px) {
+  .container-palette:hover .container-palette-item {
+    width: 500px;
+  }
+
+  .container-palette:hover .container-palette-item-red {
+    margin-left: 250px;
+    width: 500px;
+  }
+}
+
 }

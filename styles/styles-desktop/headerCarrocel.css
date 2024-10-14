@@ -1,0 +1,5 @@
+@media(min-width: 1024px) {
+    .carrocel-header-item p{
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,52 @@
+@media(min-width: 1024px) {
+    .typograph {
+        padding: 20px;
+    }
+
+    .typograph-ul li {
+        font-size: 22px;
+    }
+
+    .font-image {
+        padding: 15px;
+    }
+
+    .font-image img{
+        width: 80%;
+    }
+
+    .font-item  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .font-item img {
+        width: 80%;
+    }
+
+    .font-item-almost img {
+        width: 70%;
+    }
+
+    .font-item-text p {
+        font-size: 25px;
+    }
+
+    .container-palette-item {
+        width: 500px;
+        height: 600px;
+        gap: 450px;
+    }
+
+    .container-palette-item-red {
+        width: 500px;
+        height: 600px;
+        gap: 450px;
+    }
+
+    .container-color-palette h1{
+        font-size: 22px;
+    }
+}

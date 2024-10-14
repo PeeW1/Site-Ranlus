@@ -1,0 +1,9 @@
+@media(min-width: 1024px) {
+    .container-technologies-h1 h1{
+        font-size: 22px;
+    }
+
+    .container-technologies {
+        padding: 0px 30px;
+    }
+}

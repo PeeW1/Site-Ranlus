@@ -11,7 +11,9 @@
 @import url(../styles/syles-tablet/fontsTablet.css);
 @import url(../styles/syles-tablet/scoreTablet.css);
 @import url(../styles/styles-desktop/photosDesktop.css);
-
+@import url(../styles/styles-desktop/headerCarrocel.css);
+@import url(../styles/styles-desktop/container-fonts.css);
+@import url(../styles/styles-desktop/last-content.css);
 
 *{
     padding: 0px;
