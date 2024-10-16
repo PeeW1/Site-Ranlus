@@ -75,3 +75,14 @@
     align-items: center;
     
 }
+
+.dropdown-li {
+    display: flex;
+    justify-content: start;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown-li-itens {
+    background-color: white;
+}

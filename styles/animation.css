@@ -10,6 +10,24 @@
     transition: 1s;
 }
 
+.container-carrocel-header {
+  display: flex;
+}
+
+.carrocel {
+  display: flex;
+  animation: 8s infinite slide linear;
+}
+
+@keyframes slide {
+  from{
+    transform: translateX(400px);
+  }
+  to{
+    transform: translateX(-360px);
+  }
+}
+
 @media(min-width: 768px) {
   .container-palette:hover  .container-palette-item-red {
     margin-right: 0px;
