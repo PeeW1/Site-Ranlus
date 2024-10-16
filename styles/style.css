@@ -14,7 +14,7 @@
 @import url(../styles/styles-desktop/headerCarrocel.css);
 @import url(../styles/styles-desktop/container-fonts.css);
 @import url(../styles/styles-desktop/last-content.css);
-
+@import url(../styles/responsiveMenus.css);
 *{
     padding: 0px;
     margin: 0px;
@@ -31,4 +31,12 @@
 body {
     font-family: var(--fonte-kanit);
     background-color: var(--cinza-primario); 
+}
+
+.hidden {
+    display: none;
+}
+
+.no-overflow {
+    overflow-y: hidden;
 }
