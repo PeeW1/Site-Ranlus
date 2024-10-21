@@ -2,4 +2,60 @@
     .carrocel-header-item p{
         font-size: 22px;
     }
+
+    .container-header-search {
+        width: 35%;
+    }
+
+    .header-search-input {
+        width: 100%;
+    }
+
+    .container-header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-header-desktop {
+        display: block;
+    }
+
+    .user-desktop {
+        display: block;
+        display: flex;
+        gap: 15px;
+    }
+    
+    .user-button-desktop {
+        display: block;
+        display: flex;
+        gap: 15px;
+    }
+
+    .list-header-desktop {
+        display: flex;
+        gap: 15px;
+        list-style: none;
+    }
+
+    .container-header-user img {
+        display: none;
+    }
+
+    .user-button-black {
+        background-color: black;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 5px;
+        font-weight: 600;
+        border-style: none;
+    }
+
+    .user-button-transparent {
+        background-color: transparent;
+        border: 1px solid black;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
 }

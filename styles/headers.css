@@ -6,6 +6,20 @@
     background-color: var(--cinza-secundario);
     padding: 10px 0px;
     position: relative;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.container-header-desktop {
+    display: none;
+}
+
+.user-desktop {
+    display: none;
+}
+
+.user-button-desktop {
+    display: none;
 }
 
 .carrocel-header-item {
