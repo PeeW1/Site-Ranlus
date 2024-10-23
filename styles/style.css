@@ -30,7 +30,8 @@
 
 body {
     font-family: var(--fonte-kanit);
-    background-color: var(--cinza-primario); 
+    background-color: var(--cinza-primario);
+    overflow-x: hidden;
 }
 
 .hidden {
