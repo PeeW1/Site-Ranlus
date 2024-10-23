@@ -39,4 +39,24 @@
         font-weight: 500;
     }
 
+    .container-photos-desktop-1{
+        display: flex;
+        gap: 20px;
+        padding: 0px 260px;
+    }
+
+    .container-photos-desktop-1 img{
+        width: 100%;
+    }
+
+    .container-photos-desktop-2 {
+        display: flex;
+        gap: 20px;
+        padding: 0px 260px;
+    }
+
+    .container-photos-desktop-2 img{
+        width: 100%;
+    }
+
 }
