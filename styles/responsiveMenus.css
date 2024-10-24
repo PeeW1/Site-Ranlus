@@ -34,11 +34,13 @@
     border-bottom: 2px solid var(--cinza-secundario);
 }
 
+.dropdown-div:checked img{
+    transform: rotate(180deg);
+}
+
 .dropdown-icons img {
     width: 20px;
 }
-
-
 
 @media(min-width: 1024px) {
     .container-header-menu img  {
