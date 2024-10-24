@@ -19,6 +19,11 @@
   animation: 8s infinite slide linear;
 }
 
+.container-photos-item:hover img {
+  transition: 0.5s;
+  filter: brightness(0.5)
+}
+
 @keyframes slide {
   from{
     transform: translateX(400px);

@@ -33,9 +33,13 @@
     padding: 15px 15px 25px 15px;
     border-bottom: 2px solid var(--cinza-secundario);
 }
+.dropdown-li-itens {
+    padding: 10px 15px;
+}
 
-.dropdown-div:checked img{
-    transform: rotate(180deg);
+.dropdown-li-itens-2 {
+    border-top: 1px solid var(--cinza-secundario);
+    border-bottom: 1px solid var(--cinza-secundario);
 }
 
 .dropdown-icons img {
