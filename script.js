@@ -34,3 +34,15 @@ dropdownLi.forEach(liItens => {
 containerHeaderUser.addEventListener('click', (e) => {
     containerHeaderUserDropdown.classList.toggle('hidden')
 })
+
+
+let lastScroll = window.scrollY;
+window.addEventListener("scroll", (e) => {
+    const currentScroll = window.scrollY;
+
+    if(currentScroll < lastScroll) {
+        containerHeader.style.top = "100px"
+    }
+
+    lastScroll = currentScroll;
+})
