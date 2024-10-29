@@ -87,7 +87,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    position: relative;
 }
 
 .dropdown-li {
@@ -99,4 +99,27 @@
 
 .dropdown-li-itens {
     background-color: white;
+}
+
+.header-user-dropdown-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cinza-secundario);
+    position: absolute;
+    list-style: none;
+    right: -10px;
+    top: 35px;
+    width: 100px;
+    height: 50px;
+}
+
+.header-user-dropdown-li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid var(--cinza-primario);
 }

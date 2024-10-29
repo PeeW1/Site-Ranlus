@@ -5,6 +5,8 @@ const containerHeader = document.querySelector(".container-header")
 const dropdownDiv = document.querySelector(".dropdown-div")
 const dropdownDivItens = document.querySelectorAll(".dropdown-li-itens")
 const dropdownLi = document.querySelectorAll(".dropdown-li")
+const containerHeaderUser = document.querySelector(".container-header-user")
+const containerHeaderUserDropdown = document.querySelector(".header-user-dropdown")
 
 containerMenuhamburguer.addEventListener("click", (e) => {
     containerCarrocelHeader.classList.toggle('hidden')
@@ -28,3 +30,7 @@ dropdownLi.forEach(liItens => {
         }
     })
 });
+
+containerHeaderUser.addEventListener('click', (e) => {
+    containerHeaderUserDropdown.classList.toggle('hidden')
+})
