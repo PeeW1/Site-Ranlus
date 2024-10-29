@@ -1,0 +1,15 @@
+@media (min-width: 1024px) {
+    .footer {
+        width: 100%;
+
+    }
+
+    .footer-logo {
+        margin: 0px 290px;
+    }
+
+    .next-conferences {
+        margin: 0px 290px
+    }
+};
+    

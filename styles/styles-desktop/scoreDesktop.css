@@ -1,0 +1,16 @@
+@media(min-width:1024px) {
+    .container-score {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contaner-score-text h1{
+        font-size: 100px;
+    }
+
+    .container-votes-person {
+        width: 1300px;
+    }
+}

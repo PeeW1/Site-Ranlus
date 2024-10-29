@@ -15,6 +15,8 @@
 @import url(../styles/styles-desktop/container-fonts.css);
 @import url(../styles/styles-desktop/last-content.css);
 @import url(../styles/responsiveMenus.css);
+@import url(../styles/styles-desktop/scoreDesktop.css);
+@import url(../styles/styles-desktop/footerDesktop.css);
 *{
     padding: 0px;
     margin: 0px;
