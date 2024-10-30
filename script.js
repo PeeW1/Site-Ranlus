@@ -39,10 +39,12 @@ containerHeaderUser.addEventListener('click', (e) => {
 let lastScroll = window.scrollY;
 window.addEventListener("scroll", (e) => {
     const currentScroll = window.scrollY;
-
-    if(currentScroll < lastScroll) {
-        containerHeader.style.top = "100px"
+    console.log(currentScroll)
+    if(currentScroll > lastScroll) {
+        containerHeader.style.top = "-80px"
+    }else {
+        containerHeader.style.top = "0"
     }
 
-    lastScroll = currentScroll;
+        lastScroll = currentScroll;
 })
