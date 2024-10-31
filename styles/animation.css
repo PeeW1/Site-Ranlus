@@ -24,6 +24,37 @@
   filter: brightness(0.5)
 }
 
+.first-content-date {
+  animation: drag-right 1s ease-out 0s ;
+}
+
+.first-content-text {
+  animation: drag-right 1.5s ease-out 0s;
+}
+
+.first-content-user {
+  animation: drag-left 1.8s ease 0s;
+}
+
+@keyframes drag-right {
+  from {
+    transform: translateX(-400px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes drag-left {
+  from {
+    transform: translateX(800px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+
 @keyframes slide {
   from{
     transform: translateX(400px);

@@ -45,6 +45,5 @@ window.addEventListener("scroll", (e) => {
     }else {
         containerHeader.style.top = "0"
     }
-
         lastScroll = currentScroll;
 })
